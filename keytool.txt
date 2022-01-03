@@ -1,0 +1,7 @@
+Credential class files: Constants.java
+			VideoActivity.java
+			s3.java
+Domain names: STUDENT_REG
+	      FACULTY_REG
+	      SUBJECT_REG
+	      QUESTIONS

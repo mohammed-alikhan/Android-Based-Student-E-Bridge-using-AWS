@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.coign.student_ebridge"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.coign.student_ebridge.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.coign.student_ebridge.Admin"
+            android:label="@string/title_activity_admin" >
+        </activity>
+        <activity
+            android:name="com.coign.student_ebridge.StudentREG_BYAdmin"
+            android:label="@string/title_activity_student_reg__byadmin" >
+        </activity>
+        <activity
+            android:name="com.coign.student_ebridge.Add_Faculty"
+            android:label="@string/title_activity_add__faculty" >
+        </activity>
+        <activity android:name="com.coign.student_ebridge.ImagevActivity" >
+        </activity>
+        <activity
+            android:name="com.coign.student_ebridge.Add_Subject"
+            android:label="@string/title_activity_add__subject" >
+        </activity>
+        <activity
+            android:name="com.coign.student_ebridge.Student_Main"
+            android:label="@string/title_activity_student__main" >
+        </activity>
+        <activity
+            android:name="com.coign.student_ebridge.Faculty_Main"
+            android:label="@string/title_activity_faculty__main" >
+        </activity>
+        <activity
+            android:name="com.coign.student_ebridge.Student_Queries"
+            android:label="@string/title_activity_student__queries" >
+        </activity>
+        <activity
+            android:name="com.coign.student_ebridge.Student_PostQuestions"
+            android:label="@string/title_activity_student__post_questions" >
+        </activity>
+        <activity
+            android:name="com.coign.student_ebridge.Student_viewAnswers"
+            android:label="@string/title_activity_student_view_answers" >
+        </activity>
+        <activity
+            android:name="com.coign.student_ebridge.QueriesList"
+            android:label="@string/title_activity_queries_list" >
+        </activity>
+        <activity
+            android:name="com.coign.student_ebridge.PostAnswersActivity"
+            android:label="@string/title_activity_post_answers" >
+        </activity>
+        <activity
+            android:name="com.coign.student_ebridge.ViewAnswersActivity"
+            android:label="@string/title_activity_view_answers" >
+        </activity>
+        <activity
+            android:name="com.coign.student_ebridge.VideoActivity"
+            android:label="@string/title_activity_video" >
+        </activity>
+        <activity
+            android:name="com.coign.student_ebridge.ResetActivity"
+            android:label="@string/title_activity_reset" >
+        </activity>
+    </application>
+
+</manifest>
